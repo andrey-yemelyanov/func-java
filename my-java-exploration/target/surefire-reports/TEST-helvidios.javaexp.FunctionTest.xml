@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="10" failures="0" name="helvidios.javaexp.CollectionTest" time="0.022" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="helvidios.javaexp.FunctionTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="13.0.1+9"/>
@@ -61,14 +61,11 @@
     <property name="sun.stdout.encoding" value="cp850"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="helvidios.javaexp.CollectionTest" name="ArraysCopyOfRange" time="0.011"/>
-  <testcase classname="helvidios.javaexp.CollectionTest" name="CollectionsMax" time="0"/>
-  <testcase classname="helvidios.javaexp.CollectionTest" name="CollectionsBinarySearchWithLambda" time="0"/>
-  <testcase classname="helvidios.javaexp.CollectionTest" name="CollectionRemoveIf" time="0.001"/>
-  <testcase classname="helvidios.javaexp.CollectionTest" name="CollectionsSortWithLambda" time="0.001"/>
-  <testcase classname="helvidios.javaexp.CollectionTest" name="CollectionsSwap" time="0"/>
-  <testcase classname="helvidios.javaexp.CollectionTest" name="ArraysSumAndAvgArray" time="0.005"/>
-  <testcase classname="helvidios.javaexp.CollectionTest" name="ArraysFill" time="0.001"/>
-  <testcase classname="helvidios.javaexp.CollectionTest" name="CollectionsNCopies" time="0"/>
-  <testcase classname="helvidios.javaexp.CollectionTest" name="MapForEach" time="0.003"/>
+  <testcase classname="helvidios.javaexp.FunctionTest" name="FuncInterfaceMethodRef" time="0"/>
+  <testcase classname="helvidios.javaexp.FunctionTest" name="FuncInterface" time="0"/>
+  <testcase classname="helvidios.javaexp.FunctionTest" name="StringSupplier" time="0"/>
+  <testcase classname="helvidios.javaexp.FunctionTest" name="OptionalIfPresent" time="0"/>
+  <testcase classname="helvidios.javaexp.FunctionTest" name="Predicate" time="0"/>
+  <testcase classname="helvidios.javaexp.FunctionTest" name="StringConsumer" time="0"/>
+  <testcase classname="helvidios.javaexp.FunctionTest" name="ConverterFunction" time="0"/>
 </testsuite>
